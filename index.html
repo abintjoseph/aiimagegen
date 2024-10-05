@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>AI IMAGE GEN</title>
+</head>
+<body>
+    <section class="image-generator">
+        <div class="content">
+            <h1>AI Image Generator</h1>
+            <p>Convert your text into an image within a  second using this AI</p>
+            <form action="#" class="generate-form">
+                <input type="text" class="prompt-input" placeholder="Describe what you want to see" required>
+                <div class="controls">
+                    <select  class="img-quantity">
+                        <option value="1">1 Image</option>
+                        <option value="2">2 Image</option>
+                        <option value="3">3 Image</option>
+                        <option value="4" selected>4 Image</option>
+                    </select>
+                    <button type="submit"  class="generate-btn">Generate</button>
+                </div>
+            </form>
+        </div>
+    </section>
+   
+    <section class="img-gallery">
+            <div class="img-card">
+                <img src="./img1.jpg" alt="image">
+                <a href="#" class="download-btn">
+                    <img src="/download.svg" alt="download icon" >
+                </a>
+            </div>
+            <div class="img-card ">
+                <img src="./img2.jpg" alt="image">
+                <a href="#" class="download-btn">
+                    <img src="/download.svg" alt="download icon">
+                </a>
+            </div>
+            <div class="img-card">
+                <img src="./img3.jpg" alt="image">
+                <a href="#" class="download-btn">
+                    <img src="/download.svg" alt="download icon" >
+                </a>
+            </div>
+            <div class="img-card">
+                <img src="./img4.jpg" alt="image">
+                <a href="#" class="download-btn">
+                    <img src="/download.svg" alt="download icon" >
+                </a>
+            </div>
+        </section>
+    
+</body>
+<script src="script.js"></script>
+</html>
